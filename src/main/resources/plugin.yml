@@ -3,7 +3,7 @@ version: '1.0-SNAPSHOT'
 main: project.Art3mis.Plugin.Main
 api-version: '1.21'
 authors: [ MoNoLidThZ ]
-description: Paper Plugin
+description: Art3mis Devlopment
 website: https://art3mis.project
 
 commands:
@@ -14,4 +14,4 @@ commands:
 permissions:
   Art3misCmds.map:
     description: Allows using the /map command
-    default: true
+    default: false
