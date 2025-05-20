@@ -1,7 +1,11 @@
-name: Art3misMapPlugin
-version: 1.0
-main: project.art3mis.plugin.Main
-api-version: 1.20
+name: ProjectArt3misPlugin
+version: '1.0-SNAPSHOT'
+main: project.Art3mis.Plugin.Main
+api-version: '1.21'
+authors: [ MoNoLidThZ ]
+description: Paper Plugin
+website: https://art3mis.project
+
 commands:
   map:
     description: Gives the player a map with specific ID

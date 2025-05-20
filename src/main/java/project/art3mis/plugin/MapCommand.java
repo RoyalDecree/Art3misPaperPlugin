@@ -1,4 +1,4 @@
-package project.art3mis.plugin;
+package project.Art3mis.Plugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
