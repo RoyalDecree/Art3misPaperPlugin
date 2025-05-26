@@ -19,7 +19,7 @@ import org.bukkit.event.Listener;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main extends JavaPlugin implements Listener{
 
-    @override
+    @Override
     public void onEnable() {
         registerBrigadierCommand();
     }
