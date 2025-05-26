@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger jenkins job
-        uses: joshlk/jenkins-githubaction@master
+        uses: royaldecree/jenkins-githubaction@master
         with:
           url: https://ci.nekohost.cloud
           job_name: Art3misPlugin
