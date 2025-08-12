@@ -10,6 +10,8 @@ import org.bukkit.entity.Player;
 import java.util.ArrayList;
 import java.util.List;
 
+import project.Art3mis.Plugin.GivePetTransferAttempt;
+
 public class GivePetCommand implements CommandExecutor, TabCompleter {
     private final Main plugin;
 
@@ -49,7 +51,7 @@ public class GivePetCommand implements CommandExecutor, TabCompleter {
         // create new transfer and send message
         sender.sendMessage(plugin.getMsg("rightClickPrompt"));
         plugin.transferAttempts().put(player.getUniqueId(),
-                new TransferAttempt(null,
+                new GivePetTransferAttempt(null,
                         player.getUniqueId(),
                         target.getUniqueId()
                 )
