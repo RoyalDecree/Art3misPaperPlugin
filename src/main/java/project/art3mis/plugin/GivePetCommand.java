@@ -11,9 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GivePetCommand implements CommandExecutor, TabCompleter {
-    private final GivePet plugin;
+    private final Main plugin;
 
-    public GivePetCommand(GivePet plugin) {
+    public GivePetCommand(Main plugin) {
         this.plugin = plugin;
     }
 
