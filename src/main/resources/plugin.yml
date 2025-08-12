@@ -1,6 +1,6 @@
 name: ProjectArt3misPlugin
 version: '1.0-SNAPSHOT'
-main: project.art3mis.plugin.Main
+main: project.Art3mis.Plugin.Main
 api-version: '1.21'
 authors: [ MoNoLidThZ ]
 description: Art3mis Devlopment
