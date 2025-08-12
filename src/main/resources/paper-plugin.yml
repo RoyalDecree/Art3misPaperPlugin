@@ -9,8 +9,7 @@ description: Art3mis Devlopment
 website: https://art3mis.project
 
 # Paper-specific fields (optional, but recommended)
-loader:
-  type: JAVA
+loader: java
 
 # Command definitions (Paper supports the same format as plugin.yml)
 commands:
