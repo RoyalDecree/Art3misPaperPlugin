@@ -12,6 +12,7 @@ commands:
     usage: /map <map_id>
     permission: Art3misCmds.map
   givepet:
+    description: "Transfer ownership of your pets to other people"
     usage: 'Usage: /givepet [player|cancel]'
     permission: "givepet.use"
     permission-message: "No permission!"
