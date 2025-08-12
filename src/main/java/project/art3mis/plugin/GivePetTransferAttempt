@@ -1,0 +1,14 @@
+package project.Art3mis.Plugin;
+
+import java.util.UUID;
+
+/**
+ * An attempt to transfer a pet to another player.
+ *
+ * @param pet      the pet itself
+ * @param giver    the player giving the pet
+ * @param receiver the player receiving the pet
+ */
+public record GivePetTransferAttempt(UUID pet, UUID giver, UUID receiver) {
+
+}
