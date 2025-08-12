@@ -18,7 +18,7 @@ jobs:
       - name: Trigger jenkins job
         uses: royaldecree/jenkins-githubaction@master
         with:
-          url: https://ci.nekohost.cloud
+          url: https://ci.monolidthz.com
           job_name: Art3misPlugin
           username: ${{ secrets.JENKINS_USER }}
           api_token: ${{ secrets.JENKINS_TOKEN }}
